@@ -4,6 +4,7 @@
     -o-background-size: cover;
     background-size: cover;}
 .wd_900{max-width: 900px; margin: auto; margin-top: 40px; margin-bottom: 60px;}
+.wd_500{max-width: 500px; margin: auto;}
 .e_center{margin: auto; display: block;}
 ._center{text-align: center;}
 p{padding-right: 10px; padding-left: 10px; color: white; font-family: 'Lobster', cursive; font-weight: 100; text-align: left;}
@@ -20,8 +21,11 @@ span{color: white;}
 .fs20{font-size: 20px;}
 a:link{color: white;}
 .mgtop{margin-top: 15px;}
-.bleft{border-left: 5px solid whitesmoke;}
+.bleft{border-left: 10px solid whitesmoke;}
 .arialbold{font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: bold;}
+hr.solid {
+    border-top: 2px solid #999;
+}
 
 @media(max-width: 768px){
     .amedia{
