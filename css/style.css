@@ -1,0 +1,30 @@
+.bgimage{background: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.wd_900{max-width: 900px; margin: auto; margin-top: 40px; margin-bottom: 60px;}
+.e_center{margin: auto; display: block;}
+._center{text-align: center;}
+p{padding-right: 10px; padding-left: 10px; color: white; font-family: 'Lobster', cursive; font-weight: 100; text-align: left;}
+li{color: white; font-family: 'Righteous', cursive; font-size: 25px;}
+.acenter{text-align: center;}
+.ajustify{text-align: justify;}
+.aleft{text-align: left;} 
+.amedia{text-align: right;}
+span{color: white;}
+.mainheading{font-family: 'Press Start 2P', cursive;font-weight: bolder;}
+.heading{font-family: 'Righteous', cursive;}
+.fs40{font-size: 40px;}
+.fs45{font-size: 45px;}
+.fs20{font-size: 20px;}
+a:link{color: white;}
+.mgtop{margin-top: 15px;}
+.bleft{border-left: 5px solid whitesmoke;}
+.arialbold{font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: bold;}
+
+@media(max-width: 768px){
+    .amedia{
+        text-align: left;
+    }
+}
