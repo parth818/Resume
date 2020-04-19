@@ -1,33 +1,14 @@
 var currentpos=0,alt=1,curpos1=0,curpos2=-1
-function initialize(){
-startit()
+function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
 }
-function scrollwindow(){
-if (document.all)
-temp=document.body.scrollTop
-else
-temp=window.pageYOffset
-if (alt==0)
-alt=1
-else
-alt=0
-if (alt==0)
-curpos1=temp
-else
-curpos2=temp
-if (curpos1!=curpos2){
-if (document.all)
-currentpos=document.body.scrollTop+1
-else
-currentpos=window.pageYOffset+1
-window.scroll(0,currentpos)
+function pageScroll() {
+    window.scrollBy(0,2); // horizontal and vertical scroll increments
+    scrolldelay = setTimeout('pageScroll()',20); // scrolls every 100 milliseconds
 }
-else{
-currentpos=0
-window.scroll(0,currentpos)
-}
-}
-function startit(){
-setInterval("scrollwindow()",40)
-}
-window.onload=initialize
+window.onload=pageScroll
