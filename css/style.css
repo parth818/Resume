@@ -1,9 +1,3 @@
-.bgimage{background: url(../images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100%;}
 .wd_900{max-width: 900px; margin: auto; margin-top: 40px; margin-bottom: 60px;}
 .wd_500{max-width: 500px; margin: auto;}
 .e_center{margin: auto; display: block;}
@@ -33,4 +27,20 @@ a:link{color: white;}
     .amedia{
         text-align: left;
     }
+    
+    .bg{background: url(../images/bg_ss.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100%;}}
+@media(min-width: 769px){
+    .bg{background: url(../images/bg_ls.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100%;}    
 }
+
+
