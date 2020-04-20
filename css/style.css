@@ -25,12 +25,12 @@ a:link{color: white;}
 
 @media(max-width: 768px){
     .bg{background: rgb(0,0,0);
-        background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 100%);}
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 100%);}
     .amedia{
         text-align: left;
     }
 }
 @media(min-width: 769px){
     .bg{background: rgb(0,4,40);
-        background: linear-gradient(270deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);}    
+        background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);}    
 }
