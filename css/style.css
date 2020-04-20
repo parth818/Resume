@@ -32,5 +32,5 @@ a:link{color: white;}
 }
 @media(min-width: 769px){
     .bg{background: rgb(0,4,40);
-        background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);}    
+        background: linear-gradient(270deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);}    
 }
