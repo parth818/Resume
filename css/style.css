@@ -1,4 +1,4 @@
-.bg{background: url(../images/bg.jpg) no-repeat center center fixed; 
+.bg{background: url(../images/bg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,10 +30,6 @@ a:link{color: white;}
 .btn{font-size: 80px; font-weight: 900; color: white; font-family: 'Times New Roman', Times, serif;}
 
 @media(max-width: 768px){
-    html {
-        height: calc(100% + 60px);
-        min-height: calc(100% + 60px);
-      }
     .amedia{
         text-align: left;
     }
