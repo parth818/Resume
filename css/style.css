@@ -2,7 +2,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;}
+    background-size: cover;
+    min-height: 100%;}
 .wd_900{max-width: 900px; margin: auto; margin-top: 40px; margin-bottom: 60px;}
 .wd_500{max-width: 500px; margin: auto;}
 .e_center{margin: auto; display: block;}
