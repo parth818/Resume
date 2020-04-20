@@ -1,7 +1,17 @@
-.wd_900{max-width: 900px; margin: auto; margin-top: 40px; margin-bottom: 60px;}
+.wd_900{max-width: 900px; margin: auto;}
 .wd_500{max-width: 500px; margin: auto;}
 .e_center{margin: auto; display: block;}
 ._center{text-align: center;}
+.bg{background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    min-width: 100%;
+} 
 p{padding-right: 10px; padding-left: 10px; color: white; font-family: 'Lobster', cursive; font-weight: 100; text-align: left;}
 li{color: white; font-family: 'Righteous', cursive; font-size: 25px;}
 .acenter{text-align: center;}
@@ -21,16 +31,12 @@ a:link{color: white;}
 .link{color: white;}
 .link:hover{color: whitesmoke;}
 .pdright20{padding-right: 20px; margin-right: 10px;}
+.pdtop40{padding-top: 40px;}
+.pdbottom60{padding-bottom: 60px;}
 ._btn{height: 100px; font-size: 20px; font-weight: 900; color: white; font-family: Georgia, 'Times New Roman', Times, serif;}
 
 @media(max-width: 768px){
-    .bg{background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 100%);}
     .amedia{
         text-align: left;
     }
-}
-@media(min-width: 769px){
-    .bg{background: rgb(0,4,40);
-        background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);}    
 }
